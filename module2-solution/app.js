@@ -26,7 +26,7 @@
     function ShoppingListCheckOffService(){
         var service  = this;
         
-        var toBuyItems = [{quantity:10 , name:'cookies'}, {quantity:10 , name:'cookies'}];
+        var toBuyItems = [{quantity:10 , name:'cookies'}, {quantity:10 , name:'cookies'}, {quantity:2 , name:'oranges'}, {quantity:20, name:'beers'}, {quantity:500 , name:'galo de barcelos'}];
         
         var alreadyBoughtItems = [];
 
