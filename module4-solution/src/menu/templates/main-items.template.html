@@ -1,12 +1,12 @@
-<ol class="breadcrumb">
-    <li><a ui-sref="home">Home</a></li>
-    <li><a ui-sref="categories">Categories</a></li>
-    <li class="active">{{mainItems.categoryName}} ({{mainItems.categoryShortName}})</li>
-</ol>
+<div>
+    <span><a ui-sref="home">Home</a></span>
+    <span><a ui-sref="categories">Categories</a></span>
+    <span>{{mainItems.categoryName}} ({{mainItems.categoryShortName}})</span>
+</div>
 <h3>Menu Items for {{mainItems.categoryName}} ({{mainItems.categoryShortName}})</h3>
 <br />
-<div class="row">
-    <div class="col-md-12">
+<div>
+    <div>
         <items list="mainItems.items"></items>
     </div>
 </div>
